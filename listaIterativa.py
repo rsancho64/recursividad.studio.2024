@@ -2,21 +2,18 @@
 
 def imprime(lista):
     """impresion iterativa de una lista
-    con enfoque primero; restantes"""
-    print("<", end="")
-    print(lista[0], end="")
-    listaRestantes = lista[1:]
-    while listaRestantes != 0:
-        primero = listaRestantes[0]
-        print("<", end="")
-        listaRestantes = listaRestantes[1:]
-        print(">", end="")
+    con enfoque primero+restantes"""
+    print(f"( ", end="")
+    while len(lista):
+        print(f"{lista[0]} ", end="")
+        lista = lista[1:]
+    print(f")")
 
  
 if __name__ == "__main__":
     
     l = [33,22,11]
     imprime(l)
-    
+    print()    
     
     
