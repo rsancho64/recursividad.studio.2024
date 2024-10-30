@@ -6,8 +6,8 @@ from factorialIterativo import factorial
 if __name__ == "__main__":
     
     for i in range(500):
-        factorial(i)
-        # print(i, factorial(i))
-        # print()
+        # factorial(i)
+        print(i, factorial(i))
+        print()
     
     

@@ -2,6 +2,8 @@
 
 Comprobacion de las cargas con ambos metodos
 
+con el comando `$ time main.py`
+
 ime ./main.py
 
 ```bash:
